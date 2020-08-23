@@ -18,9 +18,9 @@ class Iterator(metaclass=ABCMeta):
 
 
 class BookShelf(Aggregate):
-    def __init__(self, max_size):
-        self.books = [] * max_size
-        self.shelf_size = max_size
+    def __init__(self):
+        self.books = []
+        self.shelf_size = 0
 
     def get_book_at(self, index):
         return self.books[index]

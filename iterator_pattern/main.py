@@ -2,7 +2,7 @@ from iterator import BookShelf, Book
 
 
 def main():
-    book_shelf = BookShelf(4)
+    book_shelf = BookShelf()
 
     book_shelf.append_book(Book('github'))
     book_shelf.append_book(Book('qiita'))
