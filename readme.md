@@ -9,4 +9,3 @@
 - [x] Iteratorパターン
 - [x] Adapterパターン
 - [x] TemplateMethodパターン
-
