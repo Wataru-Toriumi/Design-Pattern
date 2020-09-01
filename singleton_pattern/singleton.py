@@ -16,5 +16,5 @@ class RegisterNote(object):
         cls.name = name
 
     @classmethod
-    def get_name(cls, name):
+    def get_name(cls):
         return cls.name
