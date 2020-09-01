@@ -7,3 +7,6 @@
 ## 進捗
 
 - [x] Iteratorパターン
+- [x] Adapterパターン
+- [x] TemplateMethodパターン
+
