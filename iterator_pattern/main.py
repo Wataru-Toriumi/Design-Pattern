@@ -10,7 +10,7 @@ def main():
     book_shelf.append_book(Book('iterator pattern'))
 
     iterator = book_shelf.iterator()
-    while(iterator.hasNext()):
+    while(iterator.has_next()):
         book = iterator.next()
         print(book.get_name())
 
